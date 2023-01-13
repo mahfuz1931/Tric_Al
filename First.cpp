@@ -4,3 +4,6 @@
                                       
                                       
                                                  //Two
+                                           auto it=two.begin();
+                                           auto x=*it;
+                                           auto iit=three.lower_bound({x.ss,x.ff});
