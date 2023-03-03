@@ -8,3 +8,8 @@
                                            auto x=*it;
                                            //auto x=it; লিখা যায় না, it দারা এড্রেস বুঝায় আর ডিরেক্ট এড্রেস এসাইন করা যায় না । তবে ভেলু এসাইন করা যায়
                                            auto iit=three.lower_bound({x.ss,x.ff});
+                                                                   
+
+                                                  //Three
+                            convert all letter of a string in lowercase
+                                              transform(All(s),s.begin(),::tolower);
